@@ -3,6 +3,7 @@
 ***** Layout ***/
 html, body, #home {
 	height: 100%;
+	overflow-x: hidden;
 }
 body {
 	background: url(../img/capa.png),
@@ -62,13 +63,53 @@ nav.navbar-transparente {
 	background-color: white;
 	color: black;
 }
+/*******************************************************
+***** Estrutura de conteudo ***/
+#servicos {
+	background: white;
+	padding: 20px 0px;
+}
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+#recursos {
+	padding: 20px 0px;
+	color: white;
+}
+#recursos h2 {
+	color: white;
+}
+#recursos h3 {
+	color: #9bf0e1;
+}
+.albuns {
+	padding: 10px 0px;
+}
+.rotacionar {
+	transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	padding-left: 80px;
+}
 
 /*******************************************************
-***** tipografia ***/
+***** Tipografia ***/
 h1 {
 font-weight: 900;
 letter-spacing: -0.05em;
 margin-bottom: 50px;
+}
+h2 {
+	font-size: 3em;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	letter-spacing: 0.04em;
+}
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
